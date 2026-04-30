@@ -14,9 +14,9 @@ author:
   institution:    "The University of Hong Kong"
   email:          "szw.alpha@gmail.com"
   photo:          "/images/profile.jpg"
-  cv:             "/files/cv.pdf"
-  googlescholar:  "https://scholar.google.com"
-  github:         "https://github.com/"
+  cv:             ""
+  googlescholar:  ""
+  github:         ""
 
 updated: "April 2026"
 
