@@ -3,16 +3,16 @@
 # ---------------------------------------------------------------------------
 
 title:       "Zhiwei Shang"
-description: "Personal website of Zhiwei Shang, PhD Candidate in Economics."
+description: "Personal website of Zhiwei Shang, PhD Candidate in Management & Strategy."
 url:         ""    # e.g. "https://zhiweishang.github.io" (optional, fine to leave blank)
 baseurl:     ""    # leave "" if hosting at <username>.github.io
 
 # Author profile — used in the page header and in the footer.
 author:
   name:           "Zhiwei Shang"
-  role:           "PhD Candidate in Economics"
-  institution:    "University Name"
-  email:          "zhiwei.shang1@gmail.com"
+  role:           "PhD Candidate in Management & Strategy"
+  institution:    "The University of Hong Kong"
+  email:          "szw.alpha@gmail.com"
   photo:          "/images/profile.jpg"
   cv:             "/files/cv.pdf"
   googlescholar:  "https://scholar.google.com"
