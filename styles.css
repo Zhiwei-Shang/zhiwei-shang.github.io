@@ -22,7 +22,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "kern", "liga", "onum";
