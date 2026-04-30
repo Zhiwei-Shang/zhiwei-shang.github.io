@@ -21,16 +21,16 @@ permalink: /publications/
     {% for pub in jmp %}{% include publication.html pub=pub %}{% endfor %}
   {% endif %}
 
-  {% assign working = site.publications | where: "section", "working" | sort: "date" | reverse %}
-  {% if working.size > 0 %}
-    <h3 class="subsection">Working Papers</h3>
-    {% for pub in working %}{% include publication.html pub=pub %}{% endfor %}
-  {% endif %}
-
   {% assign published = site.publications | where: "section", "published" | sort: "date" | reverse %}
   {% if published.size > 0 %}
     <h3 class="subsection">Published</h3>
     {% for pub in published %}{% include publication.html pub=pub %}{% endfor %}
+  {% endif %}
+
+  {% assign working = site.publications | where: "section", "working" | sort: "date" | reverse %}
+  {% if working.size > 0 %}
+    <h3 class="subsection">Working Papers</h3>
+    {% for pub in working %}{% include publication.html pub=pub %}{% endfor %}
   {% endif %}
 
   {% assign wip = site.publications | where: "section", "wip" %}
