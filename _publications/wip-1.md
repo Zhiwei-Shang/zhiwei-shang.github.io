@@ -1,7 +1,6 @@
 ---
-title: "Title of project in progress"
+title: "Organization DNA: Knowledge Transmission through Mentorship Chains"
 section: wip
 coauthors:
-  - name: "Coauthor"
-    url: "https://example.com"
+  - name: "Jiang Bian, Jie Gong and Jin Li"
 ---
