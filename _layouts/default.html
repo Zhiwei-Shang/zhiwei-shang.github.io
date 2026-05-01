@@ -19,7 +19,8 @@
     </div>
   </header>
 
-  <main class="page">
+    <main class="page{% if page.hide_sidebar %} page--no-sidebar{% endif %}">
+    {% unless page.hide_sidebar %}
     <aside class="sidebar">
       {% if site.author.photo %}
         <img src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" class="headshot" onerror="this.style.display='none'" />
@@ -40,6 +41,7 @@
         {% endif %}
       </ul>
     </aside>
+    {% endunless %}
 
     <article class="content">
       {{ content }}
