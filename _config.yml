@@ -10,6 +10,7 @@ baseurl:     ""    # leave "" if hosting at <username>.github.io
 # Author profile — used in the page header and in the footer.
 author:
   name:           "Zhiwei Shang"
+  name_zh:        "尚志伟"
   role:           "PhD Candidate in Management & Strategy"
   institution:    "The University of Hong Kong"
   email:          "zwshang@connect.hku.hk"
