@@ -182,11 +182,12 @@ a:hover {
 }
 
 .name-zh {
-  font-family: SimSun, "Songti SC", "STSong", "Noto Serif CJK SC", serif;
-  font-size: 0.68em;
+  font-family: "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC", serif;
+  font-size: 0.78em;
   font-weight: 400;
   letter-spacing: 0;
-  margin-left: 0.12em;
+  margin-left: 0.15em;
+  vertical-align: 0.06em;
 }
 
 .sidebar-institution {
