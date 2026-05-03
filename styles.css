@@ -299,6 +299,12 @@ p {
   margin: 0 0 14px;
 }
 
+section p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 section p:last-child {
   margin-bottom: 0;
 }
